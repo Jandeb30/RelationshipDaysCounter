@@ -30,6 +30,26 @@
     color: inherit;
 }
 
+.gallery-button {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 12px 30px;
+    font-family: 'Palatino Linotype', serif;
+    font-size: 18px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.gallery-button:hover {
+    background-color: black;
+    color: white;
+}
+
 .counter {
   display: flex;
   justify-content: center;
