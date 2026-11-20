@@ -1,10 +1,13 @@
 const START_DATE = new Date("2025-02-14T00:10:00");
+const END_DATE = new Date("2026-11-20T00:00:00");
 
 function updateCounter() {
-  const now = new Date();
+  const currentTime = new Date();
+  const now = currentTime >= END_DATE ? END_DATE : currentTime;
 
   // Relationship duration
   let difference = now - START_DATE;
+
 
   const days = Math.floor(difference / (1000 * 60 * 60 * 24));
   const hours = Math.floor(

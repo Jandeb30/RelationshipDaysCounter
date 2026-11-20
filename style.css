@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 .relationship-counter {
   text-align: center;
   padding: 20px 20px;
@@ -10,6 +12,22 @@
 
 .counter-section {
   margin-bottom: 35px;
+}
+
+.footer-text {
+    font-family: 'Palatino Linotype', serif;
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    margin-top: 80px;
+}
+
+.name-font {
+    font-family: 'Palatino Linotype', serif;
+    font-style: italic;
+    font-size: 25px;
+    color: inherit;
 }
 
 .counter {
